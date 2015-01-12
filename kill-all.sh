@@ -29,5 +29,6 @@ do
 	process_id=$(ps aux | grep "data/tor" | grep "SocksPort $socks_port" | awk '{print $2;}')
 	echo "proccess id is $process_id"
 	kill $process_id
+	rm -rf "data/"
 	
 done
