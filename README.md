@@ -8,9 +8,3 @@ Tools for handling multiple TOR connections
 
 * tor_newid.sh - requests new identity (IP address) to multiple TOR instances
 * tor_newid_by_port.sh - requests new identity (IP address) for specific port
-
-* 
-
-Changelog
--------------
-* 2013-09-09    Added tor_newid.sh
